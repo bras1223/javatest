@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="664.0" prefWidth="1010.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="drawing.javafx.DrawingToolController">
+   <children>
+      <Canvas height="664.0" layoutY="-2.0" width="759.0" />
+      <Accordion layoutX="808.0" layoutY="1.0" prefHeight="664.0" prefWidth="203.0">
+        <panes>
+          <TitledPane animated="false" text="Tekenen">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Database">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="19.0" layoutY="139.0" mnemonicParsing="false" text="Opslaan" />
+                        <Text layoutX="14.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Configureren" />
+                        <Button layoutX="14.0" layoutY="67.0" mnemonicParsing="false" text="Properties laden" />
+                        <Text layoutX="14.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Database" />
+                        <Button layoutX="101.0" layoutY="139.0" mnemonicParsing="false" text="Ophalen" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Serializer">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="14.0" layoutY="163.0" mnemonicParsing="false" text="Opslaan" />
+                        <Button layoutX="89.0" layoutY="163.0" mnemonicParsing="false" text="Ophalen" />
+                        <Text layoutX="14.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Serializer" />
+                        <Text layoutX="14.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Configureren" />
+                        <Button layoutX="12.0" layoutY="70.0" mnemonicParsing="false" text="Properties laden" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+   </children>
+</AnchorPane>
